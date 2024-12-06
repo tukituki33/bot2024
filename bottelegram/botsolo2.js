@@ -16,7 +16,10 @@ app.options("*", cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
 app.use(morgan("tiny"));
-
+app.listen(3000, () => {
+    console.log('Servidor funcionando en Vercel');
+  });
+  
 import { connectDB } from "../basededatos/mongodb.js";
 import userModel from '../modelos/user.model.js';
 import pagosModel from '../modelos/pagos.model.js';
