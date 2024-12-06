@@ -1,0 +1,24 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nuevoPerfecto.js",
+  "type": "module",
+  "scripts": {
+    "bott": "nodemon bottelegram/botsolo.js",
+    "dev": "nodemon bot/scraping.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "puppeteer": "21.6.1",
+    "telegraf": "^3.37.0"
+  }
+}

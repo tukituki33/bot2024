@@ -1,0 +1,620 @@
+
+coder@coder MINGW64 /d/bot2024
+$ node bot/scraping.js 
+338
+Iniciando ejecución de funciones...
+ML2 Bs.As. Costa Atlántica | Aguas Verdes
+(node:6632) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6632) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+======DB connection successful======
+
+
+
+
+coder@coder MINGW64 /d/bot2024
+$ node bot/scraping.js 
+338
+Iniciando ejecución de funciones...
+ML2 Bs.As. Costa Atlántica | Aguas Verdes
+ZP Bs.As. Costa Atlántica | Aguas Verdes
+ARGP Bs.As. Costa Atlántica | Aguas Verdes
+(node:14908) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14908) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+======DB connection successful======
+ZP Bs.As. Costa Atlántica | Cariló
+ML2 Bs.As. Costa Atlántica | Cariló
+ARGP Bs.As. Costa Atlántica | Cariló
+ZP Bs.As. Costa Atlántica | Chapadmalal
+er ReferenceError: ciudadML is not defined
+    at recorrerCiudadesAP (file:///D:/bot2024/bot/scraping.js:1170:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ejecutarArgenProp (file:///D:/bot2024/bot/scraping.js:1112:13)
+    at async Promise.all (index 2)
+    at async executeAllFunctions (file:///D:/bot2024/bot/scraping.js:1256:28)
+ARGP Bs.As. Costa Atlántica | Chapadmalal
+ML2 Bs.As. Costa Atlántica | Chapadmalal
+ZP Bs.As. Costa Atlántica | Costa Azul
+
+
+coder@coder MINGW64 /d/bot2024
+$ node bot/scraping.js 
+338
+Iniciando ejecución de funciones...
+ML2 Bs.As. Costa Atlántica | Aguas Verdes
+ZP Bs.As. Costa Atlántica | Aguas Verdes
+ARGP Bs.As. Costa Atlántica | Aguas Verdes
+(node:8784) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8784) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+======DB connection successful======
+ARGP Bs.As. Costa Atlántica | Cariló
+ZP Bs.As. Costa Atlántica | Cariló
+ML2 Bs.As. Costa Atlántica | Cariló
+{
+  informacion: {
+    infolista: [
+      'Casa',
+      '320  m² Cubierta',
+      '4 dormitorios',
+      'A Estrenar',
+      '5 baños',
+      '7 ambientes',
+      '2 cocheras',
+      'Excelente',
+      '1.600  m² Terreno'
+    ],
+    infofija: {
+      precio: 'USD 1.200.000',
+      titulo: 'Casa  en Venta en Carilo, Costa Atlántica',
+      tipo: 'Venta',
+      imagen: 'https://static1.sosiva451.com/74037561/47245a74-a648-4272-82d2-513317d2331f_u_medium.jpg'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f98c'),
+    Publicaciones: [
+      new ObjectId('6744c0d47fff79052daab7e2'),
+      new ObjectId('6744c0d27fff79052daab7df')
+    ],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Cariló',
+    ciudadjson: 'BsAsCACariló',
+    __v: 2,
+    createdAt: 2024-11-25T17:42:52.754Z,
+    updatedAt: 2024-11-25T18:24:20.442Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Cariló',
+    ciudad: 'Cariló',
+    url: 'https://www.argenprop.com/campos-o-casas-o-cocheras-o-departamentos-o-fondos-de-comercio-o-galpones-o-hoteles-o-locales-o-negocios-especiales-o-oficinas-o-ph-o-quintas-o-terrenos/alquiler-o-alquiler-temporal-o-venta/car
+ilo?orden-masnuevos'
+  }
+}
+ARGP Bs.As. Costa Atlántica | Chapadmalal
+ZP Bs.As. Costa Atlántica | Chapadmalal
+ML2 Bs.As. Costa Atlántica | Chapadmalal
+ZP Bs.As. Costa Atlántica | Costa Azul
+{
+  informacion: {
+    infolista: [
+      'Casa',
+      '210  m² Cubierta',
+      '2 dormitorios',
+      'A Estrenar',
+      '2 baños',
+      '3 ambientes',
+      'Excelente',
+      '800  m² Terreno'
+    ],
+    infofija: {
+      precio: 'USD 180.000',
+      titulo: 'Casa 3 ambientes en barrio cerrado - Barracas de San Benito',
+      tipo: 'Venta',
+      imagen: 'https://static1.sosiva451.com/45925061/03d47676-8165-4ed4-a806-ab38c114548d_u_medium.jpg'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f98d'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Chapadmalal',
+    ciudadjson: 'BsAsCAChapadmalal',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.754Z,
+    updatedAt: 2024-11-25T17:42:52.754Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Chapadmalal',
+    ciudad: 'Chapadmalal',
+    url: 'https://www.argenprop.com/campos-o-casas-o-cocheras-o-departamentos-o-fondos-de-comercio-o-galpones-o-hoteles-o-locales-o-negocios-especiales-o-oficinas-o-ph-o-quintas-o-terrenos/alquiler-o-alquiler-temporal-o-venta/cha
+padmalal-general-pueyrredon?orden-masnuevos'
+  }
+}
+ARGP Bs.As. Costa Atlántica | Costa Azul
+ZP Bs.As. Costa Atlántica | Costa Chica
+Iniciando tarea 0
+Iniciando tarea 1
+ZP Bs.As. Costa Atlántica | Costa del Este
+{
+  informacion: {
+    infolista: [
+      'Casa',
+      '45  m² Cubierta',
+      '2 dormitorios',
+      '2 baños',
+      '3 ambientes',
+      '1 cochera',
+      'Oeste',
+      '60  m² Terreno'
+    ],
+    infofija: {
+      precio: 'USD 34.000',
+      titulo: 'Chalet Venta 3 Ambientes Costa Azul',
+      tipo: 'Venta',
+      imagen: 'https://static1.sosiva451.com/67646851/9b1ec859-f625-432b-86ba-f14c0a8926a4_u_medium.jpg'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f98e'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Costa Azul',
+    ciudadjson: 'BsAsCACostaAzul',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.754Z,
+    updatedAt: 2024-11-25T17:42:52.754Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Costa Azul',
+    ciudad: 'Costa Azul',
+    url: 'https://www.argenprop.com/campos-o-casas-o-cocheras-o-departamentos-o-fondos-de-comercio-o-galpones-o-hoteles-o-locales-o-negocios-especiales-o-oficinas-o-ph-o-quintas-o-terrenos/alquiler-o-alquiler-temporal-o-venta/cos
+ta-azul?orden-masnuevos'
+  }
+}
+Iniciando tarea 2
+Iniciando tarea 3
+{
+  informacion: {
+    infolista: [
+      'Departamento',
+      '43  m² Cubierta',
+      '1 dormitorio',
+      '1 baño',
+      '2 ambientes',
+      'Bueno',
+      'Frente',
+      'Norte'
+    ],
+    infofija: {
+      precio: 'USD 30.000',
+      titulo: 'Departamento - Venta - Argentina, Costa Azul - San Juan',
+      tipo: 'Venta',
+      imagen: 'https://static1.sosiva451.com/50316851/6eaddb9b-2f74-496d-a499-8f04ee6df2af_u_medium.jpg'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f98e'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Costa Azul',
+    ciudadjson: 'BsAsCACostaAzul',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.754Z,
+    updatedAt: 2024-11-25T17:42:52.754Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Costa Azul',
+    ciudad: 'Costa Azul',
+    url: 'https://www.argenprop.com/campos-o-casas-o-cocheras-o-departamentos-o-fondos-de-comercio-o-galpones-o-hoteles-o-locales-o-negocios-especiales-o-oficinas-o-ph-o-quintas-o-terrenos/alquiler-o-alquiler-temporal-o-venta/cos
+ta-azul?orden-masnuevos'
+  }
+}
+{
+  informacion: {
+    propiedades: { 'Superficie total': '450 m²', Acceso: 'Otro' },
+    propiedadesfijas: {
+      Tipo: 'Terreno y lote en Venta',
+      Titulo: 'Venta Lote San Eduardo Del Mar 450m²',
+      Precio: '10.000',
+      Imagen: 'https://http2.mlstatic.com/D_NQ_NP_602145-MLA80660905294_112024-O.webp'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f98d'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Chapadmalal',
+    ciudadjson: 'BsAsCAChapadmalal',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.754Z,
+    updatedAt: 2024-11-25T17:42:52.754Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Chapadmalal',
+    ciudad: 'Chapadmalal',
+    url: 'https://inmuebles.mercadolibre.com.ar/bsas-costa-atlantica/chapadmalal/_PublishedToday_YES'
+  }
+}
+ZP Bs.As. Costa Atlántica | Costa Esmeralda
+{
+  informacion: {
+    propiedades: {
+      'Superficie total': '525 m²',
+      Acceso: 'Asfalto',
+      Expensas: '0 USD'
+    },
+    propiedadesfijas: {
+      Tipo: 'Terreno y lote en Venta',
+      Titulo: 'Se Vende Lote En El Marquesado. Chapadmalal ',
+      Precio: '10.000',
+      Imagen: 'https://http2.mlstatic.com/D_NQ_NP_846819-MLA80672250334_112024-O.webp'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f98d'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Chapadmalal',
+    ciudadjson: 'BsAsCAChapadmalal',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.754Z,
+    updatedAt: 2024-11-25T17:42:52.754Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Chapadmalal',
+    ciudad: 'Chapadmalal',
+    url: 'https://inmuebles.mercadolibre.com.ar/bsas-costa-atlantica/chapadmalal/_PublishedToday_YES'
+  }
+}
+{
+  informacion: {
+    infolista: [
+      'Departamento',
+      '61  m² Cubierta',
+      '2 dormitorios',
+      '1 baño',
+      '3 ambientes',
+      'Bueno',
+      'Frente',
+      'Norte'
+    ],
+    infofija: {
+      precio: 'USD 36.000',
+      titulo: 'Departamento - Venta - Argentina, Costa Azul - San Juan',
+      tipo: 'Venta',
+      imagen: 'https://proxy.sosiva451.com/proxy/B8C3812E6B11DD7947F2C6250B55F7FF6D8BBD8B70574BCDB5999588FC49DB46F6C11637A3C9CCAD94CDB8322E9280C9A82A1DEF8DDCA9F8B2508D693773BE2B2BB20F75EF0B097792B3A7CF753ADCA7'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f98e'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Costa Azul',
+    ciudadjson: 'BsAsCACostaAzul',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.754Z,
+    updatedAt: 2024-11-25T17:42:52.754Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Costa Azul',
+    ciudad: 'Costa Azul',
+    url: 'https://www.argenprop.com/campos-o-casas-o-cocheras-o-departamentos-o-fondos-de-comercio-o-galpones-o-hoteles-o-locales-o-negocios-especiales-o-oficinas-o-ph-o-quintas-o-terrenos/alquiler-o-alquiler-temporal-o-venta/cos
+ta-azul?orden-masnuevos'
+  }
+}
+{
+  informacion: {
+    propiedades: {
+      'Superficie total': '557 m²',
+      'Superficie cubierta': '557 m²',
+      Ambientes: '5',
+      Dormitorios: '4',
+      'Baños': '2'
+    },
+    propiedadesfijas: {
+      Tipo: 'Casa en Venta',
+      Titulo: 'Casa En Venta En Chapadmalal',
+      Precio: '45.000',
+      Imagen: 'https://http2.mlstatic.com/D_NQ_NP_888567-MLA80942084201_112024-O.webp'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f98d'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Chapadmalal',
+    ciudadjson: 'BsAsCAChapadmalal',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.754Z,
+    updatedAt: 2024-11-25T17:42:52.754Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Chapadmalal',
+    ciudad: 'Chapadmalal',
+    url: 'https://inmuebles.mercadolibre.com.ar/bsas-costa-atlantica/chapadmalal/_PublishedToday_YES'
+  }
+}
+{
+  informacion: {
+    propiedades: { 'Superficie total': '446 m²', Acceso: 'Otro' },
+    propiedadesfijas: {
+      Tipo: 'Terreno y lote en Venta',
+      Titulo: 'Venta Lote En Santa Isabel Chapadmalal',
+      Precio: '22.000',
+      Imagen: 'https://http2.mlstatic.com/D_NQ_NP_604836-MLA80924338399_112024-O.webp'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f98d'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Chapadmalal',
+    ciudadjson: 'BsAsCAChapadmalal',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.754Z,
+    updatedAt: 2024-11-25T17:42:52.754Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Chapadmalal',
+    ciudad: 'Chapadmalal',
+    url: 'https://inmuebles.mercadolibre.com.ar/bsas-costa-atlantica/chapadmalal/_PublishedToday_YES'
+  }
+}
+{
+  informacion: {
+    infolista: [
+      'Casa',
+      '112  m² Cubierta',
+      '3 dormitorios',
+      '4 ambientes',
+      '496  m² Terreno'
+    ],
+    infofija: {
+      precio: 'USD 110.000',
+      titulo: 'Casa - Venta - Argentina, Costa Azul - AV BARTOLOME MITRE 4100',
+      tipo: 'Venta',
+      imagen: 'https://proxy.sosiva451.com/proxy/3233933701CEE7692BB30806B29ED270C13120C6255331E7D50F7FCD65F11D6271AF0AF2E7FD7B91DF6B147F88DA8CD2B8BA6EB6B2ABB426BE55433AE628862F31384109B572B26151AA0F93C68897BB0D6AE8D0CF56F5398BAB
+7CB46CD97C87'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f98e'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Costa Azul',
+    ciudadjson: 'BsAsCACostaAzul',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.754Z,
+    updatedAt: 2024-11-25T17:42:52.754Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Costa Azul',
+    ciudad: 'Costa Azul',
+    url: 'https://www.argenprop.com/campos-o-casas-o-cocheras-o-departamentos-o-fondos-de-comercio-o-galpones-o-hoteles-o-locales-o-negocios-especiales-o-oficinas-o-ph-o-quintas-o-terrenos/alquiler-o-alquiler-temporal-o-venta/cos
+ta-azul?orden-masnuevos'
+  }
+}
+ZP Bs.As. Costa Atlántica | La Lucila del Mar
+ARGP Bs.As. Costa Atlántica | Costa del Este
+ML2 Bs.As. Costa Atlántica | Costa Azul
+ZP Bs.As. Costa Atlántica | Las Toninas
+ZP Bs.As. Costa Atlántica | Mar Azul
+{
+  informacion: {
+    infolista: [
+      'Departamento',
+      '75  m² Cubierta',
+      '2 dormitorios',
+      'A Estrenar',
+      '1 baño',
+      '3 ambientes',
+      '1 cocheras'
+    ],
+    infofija: {
+      precio: 'USD 193.000',
+      titulo: 'VENTA DEPARTAMENTO 3 AMBIENTES COSTA DEL ESTE',
+      tipo: 'Venta',
+      imagen: 'https://static1.sosiva451.com/87896561/4fa457e9-a4a7-4b79-b0c9-267ad7a6a63a_u_medium.jpg'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f990'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Costa del Este',
+    ciudadjson: 'BsAsCACostadelEste',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.755Z,
+    updatedAt: 2024-11-25T17:42:52.755Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Costa del Este',
+    ciudad: 'Costa del Este',
+    url: 'https://www.argenprop.com/campos-o-casas-o-cocheras-o-departamentos-o-fondos-de-comercio-o-galpones-o-hoteles-o-locales-o-negocios-especiales-o-oficinas-o-ph-o-quintas-o-terrenos/alquiler-o-alquiler-temporal-o-venta/cos
+ta-del-este?orden-masnuevos'
+  }
+}
+Iniciando tarea 0
+{
+  informacion: {
+    infolista: [ 'Terreno', '500.000  m² Total', '305  mts Frente' ],
+    infofija: {
+      precio: 'Consultar precio',
+      titulo: 'Fracción en venta en Costa Del Este RUTA 11 KM 332 Dacal Bienes Raices',
+      tipo: 'Venta',
+      imagen: 'https://proxy.sosiva451.com/proxy/D1881AEBA8F0B69FD67A6C095CE2DF52E9230CA2C3C7D42E87F6B8E916238D7122D82471649131762509CE590963FF4BCD144946C5D3F4AF071A1F371065B17C1DAB3A6629EA19C6E72639857494FC20F4A6850876A408CF2684
+03D82E5F1C76013B44E79CAF8FFD62C62CC499B930C78999967EEC38B103C2B7BC3811B5A050EB6DD9855061507254299C4664F7C84B'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f990'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Costa del Este',
+    ciudadjson: 'BsAsCACostadelEste',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.755Z,
+    updatedAt: 2024-11-25T17:42:52.755Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Costa del Este',
+    ciudad: 'Costa del Este',
+    url: 'https://www.argenprop.com/campos-o-casas-o-cocheras-o-departamentos-o-fondos-de-comercio-o-galpones-o-hoteles-o-locales-o-negocios-especiales-o-oficinas-o-ph-o-quintas-o-terrenos/alquiler-o-alquiler-temporal-o-venta/cos
+ta-del-este?orden-masnuevos'
+  }
+}
+ARGP Bs.As. Costa Atlántica | La Lucila del Mar
+Iniciando tarea 1
+ZP Bs.As. Costa Atlántica | Mar de Ajo
+Iniciando tarea 2
+{
+  informacion: {
+    propiedades: {
+      'Superficie total': '95 m²',
+      'Superficie cubierta': '65 m²',
+      'Tipo de casa': 'Dúplex',
+      'Huéspedes': '5',
+      Ambientes: '3'
+    },
+    propiedadesfijas: {
+      Tipo: 'Casa en Alquiler temporal',
+      Titulo: 'Alquiler Temporario Dúplex 2 Dormitorios Costa Azul Con Cochera',
+      Precio: '400',
+      Imagen: 'https://http2.mlstatic.com/D_NQ_NP_914132-MLA80940874797_112024-O.webp'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f98e'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Costa Azul',
+    ciudadjson: 'BsAsCACostaAzul',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.754Z,
+    updatedAt: 2024-11-25T17:42:52.754Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Costa Azul',
+    ciudad: 'Costa Azul',
+    url: 'https://inmuebles.mercadolibre.com.ar/bsas-costa-atlantica/costa-azul/_PublishedToday_YES'
+  }
+}
+Iniciando tarea 3
+ZP Bs.As. Costa Atlántica | Mar de las Pampas
+{
+  informacion: {
+    propiedades: {
+      'Superficie total': '96 m²',
+      'Superficie cubierta': '80 m²',
+      'Tipo de casa': 'Dúplex',
+      'Huéspedes': '7',
+      Ambientes: '4'
+    },
+    propiedadesfijas: {
+      Tipo: 'Casa en Alquiler temporal',
+      Titulo: 'Alquiler Temporario Dúplex 3 Dormitorios Costa Azul Con Cochera',
+      Precio: '400',
+      Imagen: 'https://http2.mlstatic.com/D_NQ_NP_693204-MLA80676900156_112024-O.webp'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f98e'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Costa Azul',
+    ciudadjson: 'BsAsCACostaAzul',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.754Z,
+    updatedAt: 2024-11-25T17:42:52.754Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Costa Azul',
+    ciudad: 'Costa Azul',
+    url: 'https://inmuebles.mercadolibre.com.ar/bsas-costa-atlantica/costa-azul/_PublishedToday_YES'
+  }
+}
+Iniciando tarea 4
+{
+  informacion: {
+    propiedades: {
+      'Superficie total': '60 m²',
+      'Superficie cubierta': '52 m²',
+      'Huéspedes': '5',
+      Ambientes: '3',
+      Dormitorios: '2'
+    },
+    propiedadesfijas: {
+      Tipo: 'Departamento en Alquiler temporal',
+      Titulo: 'Alquiler Temporario Departamento 2 Dormitorios Costa Azul',
+      Precio: '1.000',
+      Imagen: 'https://http2.mlstatic.com/D_NQ_NP_615485-MLA80677044754_112024-O.webp'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f98e'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'Costa Azul',
+    ciudadjson: 'BsAsCACostaAzul',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.754Z,
+    updatedAt: 2024-11-25T17:42:52.754Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA Costa Azul',
+    ciudad: 'Costa Azul',
+    url: 'https://inmuebles.mercadolibre.com.ar/bsas-costa-atlantica/costa-azul/_PublishedToday_YES'
+  }
+}
+{
+  informacion: {
+    infolista: [
+      'Departamento',
+      '80  m² Cubierta',
+      '3 dormitorios',
+      '12 años',
+      '2 baños',
+      '4 ambientes'
+    ],
+    infofija: {
+      precio: 'USD 65.000',
+      titulo: 'VENTA DE TRIPLEX EN LA LUCILA DEL MAR',
+      tipo: 'Venta',
+      imagen: 'https://static1.sosiva451.com/57896561/afffbc51-8706-40ee-b74e-c9da1d8dad78_u_medium.jpg'
+    }
+  },
+  zonamodelo: {
+    _id: new ObjectId('6744b71c7bcbaa913b16f992'),
+    Publicaciones: [],
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudad: 'La Lucila del Mar',
+    ciudadjson: 'BsAsCALaLuciladelMar',
+    __v: 0,
+    createdAt: 2024-11-25T17:42:52.755Z,
+    updatedAt: 2024-11-25T17:42:52.755Z
+  },
+  ciudadML: {
+    provincia: 'Bs.As. Costa Atlántica',
+    ciudadjson: 'BsAsCA La Lucila del Mar',
+    ciudad: 'La Lucila del Mar',
+    url: 'https://www.argenprop.com/campos-o-casas-o-cocheras-o-departamentos-o-fondos-de-comercio-o-galpones-o-hoteles-o-locales-o-negocios-especiales-o-oficinas-o-ph-o-quintas-o-terrenos/alquiler-o-alquiler-temporal-o-venta/la-
+lucila-del-mar?orden-masnuevos'
+  }
+}
