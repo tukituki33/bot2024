@@ -7,20 +7,23 @@ import dotenv from 'dotenv';
 dotenv.config();
 const { session } = Telegraf;
 
-const bot = new Telegraf(process.env.BOT_TOKEN)
-bot.telegram.setWebhook(`${process.env.WEBHOOK_URL}/bot${process.env.BOT_TOKEN}`);
-app.use(bot.webhookCallback(`/bot${process.env.BOT_TOKEN}`));
+const bot = new Telegraf('6519385897:AAHrxd20APsuE2hlJ1jo5cu0O0qnNIVAmBk')
+bot.telegram.setWebhook(`bot2024arg.vercel.app/bot6519385897:AAHrxd20APsuE2hlJ1jo5cu0O0qnNIVAmBk`);
 
 bot.use(session());
 import urlsML from '../urls/mercadolibre.js';
 const app = express();
 app.use(cors());
+app.use(bot.webhookCallback(`/bot6519385897:AAHrxd20APsuE2hlJ1jo5cu0O0qnNIVAmBk`));
 app.options("*", cors());
 //middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
 app.use(morgan("tiny"));
-
+app.listen(3004, () => {
+    console.log('Servidor funcionando en Vercel');
+  });
+  
 import { connectDB } from "../basededatos/mongodb.js";
 import userModel from '../modelos/user.model.js';
 import pagosModel from '../modelos/pagos.model.js';
