@@ -5,8 +5,7 @@
   "main": "nuevoPerfecto.js",
   "type": "module",
   "scripts": {
-    "bott": "nodemon bottelegram/botsolo.js",
-    "dev": "nodemon bot/scraping.js"
+    "start": "node bottelegram/botsolo2.js"
   },
   "keywords": [],
   "author": "",
