@@ -2,7 +2,7 @@
   "name": "telegram-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "nuevoPerfecto.js",
+  "main": "bottelegram/botsolo2.js",
   "type": "module",
   "scripts": {
     "start": "node bottelegram/botsolo2.js"
