@@ -562,9 +562,4 @@ bot.on("callback_query", async (ctx) => {
     }
 })
 
-bot.launch({
-  webhook: {
-    domain: "https://nombre-del-proyecto.up.railway.app",
-    port: process.env.PORT || 3000,
-  }
-})
+bot.launch()
